@@ -1,5 +1,5 @@
 # companion
-LLM based flutter app utilizing Gemini API to bring the use of AI to our daily lives.
+LLM based flutter app powered by Gemini API to bring the use of AI to our daily lives.
 
 
 ## Getting Started
