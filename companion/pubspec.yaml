@@ -1,0 +1,47 @@
+name: companion
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_gemini: ^2.0.4
+  image_picker: ^1.1.2
+  flutter_bloc: 
+  dio:
+  google_generative_ai: ^0.4.4
+  speech_to_text: ^6.6.2
+  flutter_tts: ^4.0.2
+
+  cupertino_icons: ^1.0.2
+  flutter_switch: ^0.3.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/open-hand.png"
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+
+
